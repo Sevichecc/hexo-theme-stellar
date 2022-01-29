@@ -15,7 +15,7 @@ $light-site-bg = convert(hexo-config('style.theme.light'))
 $light-block = #f1f3f5
 $light-title = #000
 $light-text = #333
-$light-code =  #e67700
+$light-code =  #f08c00
 $light-card = white
 
 // 深色
@@ -29,14 +29,13 @@ $dark-card = lighten(saturate($dark-site-bg, 50%), 10)
 // 移动端深色背景（OLED调成纯黑可以省电）
 $dark-site-bg-mobile = black
 
-
 // @font-face
-//   font-family: 'Dosis'
-//   src: url('https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/Dosis/Dosis-Medium.ttf')
-//   font-weight: normal
+//   font-family: 'IBM Plex Sans', sans-serif;
+//   src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap')
+//   font-weight: 400
 //   font-style: normal
 
-$ff-body = system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif
+$ff-body = 'IBM Plex Sans', sans-serif,system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif
 $ff-code = Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif
 
 $ff-logo = $ff-body
